@@ -10,10 +10,11 @@
       var isNpmModule = !path.match(Node_modules/)
       return isNpmModule;
     }
+    ```
 * `plugins` 的优化
 ---
-    *使用 `cheap-sourse-map` ;
-    *`OPTIMIZATION` 正式环境再用 `UglifyJsPlugin`
-    *使用 `CommonsChunk`
+    * 使用 `cheap-sourse-map` ;
+    * `OPTIMIZATION` 正式环境再用 `UglifyJsPlugin`
+    * 使用 `CommonsChunk`
 * 使用 `DLL`
 ---
