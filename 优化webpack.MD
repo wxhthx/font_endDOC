@@ -1,4 +1,4 @@
-# 优化weback的方法汇总/<br>
+# 优化weback的方法汇总<br>
 *路径复杂的情况下使用moduledirectories
 *## babel-loader能者多劳
     对于第三方插件，不使用babel-loader进行加载，因为他们其实已经进行了转换，可以通过以下代码进行屏蔽：
