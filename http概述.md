@@ -16,7 +16,7 @@
 
 
 ## 状态码
-    `tips`：`HTTP`是无状态协议，彼此请求互相之前不能获知其他的状态
+    tips：HTTP是无状态协议，彼此请求互相之前不能获知其他的状态
 * `1XX`
  * `100`
 * `2XX`
@@ -39,41 +39,41 @@
 
 ## HTTP首部
 1. 通用首部
- * Cache-control 
- * Connection
- * Date
- * Pragma HTTP/1.1之前版本的历史遗留字段
- * Transfer-Encoding 规定了传输报文主题时采用的编码方式
- * Warning 告知用户一些与缓存相关问题的警告
+ * `Cache-control` 
+ * `Connection`
+ * `Date`
+ * `Pragma` HTTP/1.1之前版本的历史遗留字段
+ * `Transfer-Encoding` 规定了传输报文主题时采用的编码方式
+ * `Warning` 告知用户一些与缓存相关问题的警告
 2. 请求
- * Accept 通知服务器用户代理能够处理的媒体类型以及相对优先级
- * Accept-Charset 通知服务器用户代理能够处理的字符集
- * Accept-Encoding 通知服务器用户代理能够处理的内容编码
- * Accept-Language 通知服务器用户代理能够处理的语言
- * Expect
- * Host 告知服务器请求资源在互联网中主机名和端口号
- * If-Match 告知服务器匹配资源所有Etag值
- * If-Modified-Since
- * If-Range
+ * `Accept` 通知服务器用户代理能够处理的媒体类型以及相对优先级
+ * `Accept-Charset` 通知服务器用户代理能够处理的字符集
+ * `Accept-Encoding` 通知服务器用户代理能够处理的内容编码
+ * `Accept-Language` 通知服务器用户代理能够处理的语言
+ * `Expect`
+ * `Host` 告知服务器请求资源在互联网中主机名和端口号
+ * `If-Match` 告知服务器匹配资源所有Etag值
+ * `If-Modified-Since`
+ * `If-Range`
 3. 响应首部
- * Etag
- * Location
+ * `Etag`
+ * `Location`
 
 ## URI && URL
-### URI: Uniform Resource Identifier 统一资源标志符
+### URI: `Uniform Resource Identifier` 统一资源标志符
     URI包括URL和URN
-### URL: Uniform Resource Location 统一资源定位符
+### URL: `Uniform Resource Location` 统一资源定位符
     URL描述了一台特定服务器上某资源的特定位置，目前几乎所有的URI都是URL
     URL分为以下三部分
 例子：Http://www.joes-hardware.com/seaconal/index-fall.html
- * URL方案（schema）Http://
- * 服务器地址  www.joes-hardware.com
- * 资源路径  seaconal/index-fall.html
+ * URL方案（schema）`Http://`
+ * 服务器地址  `www.joes-hardware.com`
+ * 资源路径  `seaconal/index-fall.html`
 
 ## 从输入URL到页面加载中间经历哪些过程
-1. DNS解析
-2. TCP连接
-3. 浏览器发送HTTP请求
+1. `DNS`解析
+2. `TCP`连接
+3. 浏览器发送`HTTP`请求
 4. 服务器收到请求信息，查找或者处理资源/数据并返回报文给浏览器
 5. 浏览器解析并渲染页面
 6. 连接关闭
