@@ -58,3 +58,22 @@
 3. 响应首部
  * Etag
  * Location
+
+## URI && URL
+### URI: Uniform Resource Identifier 统一资源标志符
+    URI包括URL和URN
+### URL: Uniform Resource Location 统一资源定位符
+    URL描述了一台特定服务器上某资源的特定位置，目前几乎所有的URI都是URL
+    URL分为以下三部分
+例子：Http://www.joes-hardware.com/seaconal/index-fall.html
+ * URL方案（schema）Http://
+ * 服务器地址  www.joes-hardware.com
+ * 资源路径  seaconal/index-fall.html
+
+## 从输入URL到页面加载中间经历哪些过程
+1. DNS解析
+2. TCP连接
+3. 浏览器发送HTTP请求
+4. 服务器收到请求信息，查找或者处理资源/数据并返回报文给浏览器
+5. 浏览器解析并渲染页面
+6. 连接关闭
