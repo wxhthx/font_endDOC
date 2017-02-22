@@ -13,6 +13,7 @@
     * 如果在已设定float属性的目标上设定负值margin，就为覆盖内容创造了一个空的行距（该条内容翻译不够准确）
     * If a negative margin is applied opposite a float, it creates a void leading to the overlapping of content. This is great for liquid layouts where one column has a width of 100% while the other has a definite width, like 100px.
     * 如果两个元素是以下css 配置：
+
 ```
  .box1, .box2 {
     float: left;
@@ -21,6 +22,7 @@
     margin-right: -20px;
  }
  ```
+ 
     box1显示比实际内容小20px。
     * If the negative margin is equal to the actual width, then it overlaps it entirely. This is because margins, padding, borders, and width add up to the total width of an element. So if a negative margin is equal to the rest of the dimensions then the element’s width effectively becomes 0px.
 Demo地址：
