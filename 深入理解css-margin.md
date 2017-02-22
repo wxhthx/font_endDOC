@@ -4,7 +4,7 @@
  
     对于margin负值分为以下两种场景：
 
-1. |`在固定元素上使用负值margin`|
+1. 在固定元素上使用负值margin
  1.1 margin-top、margin-left分别向上、左移动对应尺寸的元素；
  1.2 margin-right、margin-bottom不是让目标元素向右、下移动元素，而是让最后的元素拉向目标元素，并覆盖目标元素；
  1.3 如果目标元素没有设定宽度，设定margin-left,margin-right使用负值，会增加到目标的实际宽度；
