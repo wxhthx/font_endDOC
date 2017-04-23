@@ -34,6 +34,9 @@ Array.prototype.reDup = function (){
   return res;
 }
 
+/**
+* 数组去重简洁版
+*/
 Array.prototype.easyReDup = function (){
   var res = [];
   var obj = {};
