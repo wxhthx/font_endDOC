@@ -48,3 +48,10 @@ Array.prototype.easyReDup = function (){
   });
   return res;
 }
+
+/**
+* ES6版本
+**/
+ let unique = function(array){
+  return [...new Set(array)];
+}
